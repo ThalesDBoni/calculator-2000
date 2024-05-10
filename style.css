@@ -20,6 +20,21 @@ body {
     align-items: center;
     background-color: var(--main-bg-color);
     color: white;
+
+}
+
+.buttonsWrapper {
+    background-color: var(--secondary--bg-color);
+    border-radius: 9px;
+    padding: 2rem;
+
+    width: 28rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .screenNumbers {
@@ -27,15 +42,8 @@ body {
 }
 
 .generalWrapper {
-    background-color: var(--secondary--bg-color);
-    border-radius: 9px;
-    padding: 2rem;
-
-    max-width: 35rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    bottom: 2.5rem;
 }
 
 .numberBtnsWrapper {
