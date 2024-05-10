@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #212529;
+    --secondary--bg-color: #5f3dc4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.screenNumbers {
+    font-size: 5.8rem;
+}
+
+.generalWrapper {
+    background-color: var(--secondary--bg-color);
+    border-radius: 9px;
+    padding: 2rem;
+
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberBtnsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    /* padding: 2.2rem; */
+    width: 7.2rem;
+    height: 7.2rem;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 9px;
+}
+
+.signalsBtnsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.showResultBtn {
+    width: 7.2rem;
+    height: 7.2rem;
+}
